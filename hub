@@ -343,6 +343,11 @@ end)
  OthersSection:NewButton("TP TO PLAYER to me", "ButtonInfo", function()
 loadstring(game:HttpGet("https://pastebin.com/UbzrWagz"))()
 end) 
+ OthersSection:NewButton("Give item", "ButtonInfo", function()
+gearid = "http://www.roblox.com/asset/?id=95951330"
+ 
+game:GetObjects(gearid)[1].Parent = game.Players.LocalPlayer.Backpack
+end)
 
  OthersSection:NewButton("cookid ADMIN", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/apanel", true))()
