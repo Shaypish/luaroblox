@@ -368,6 +368,13 @@ bambam.Force = Vector3.new(power,0,power)
 bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 end)
 
+local OthersTab = Window:NewTab("Build A Boat For Treasure")
+local OthersSection = OthersTab:NewSection("Build A Boat For Treasure")
+
+OthersSection:NewButton("Flexsz", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Flexzstr/FlexsszTr/main/Founder",true))()
+end)
+
   local OthersTab = Window:NewTab("Shaders")
 local OthersSection = OthersTab:NewSection("RTX")
  OthersSection:NewButton("RTX", "ButtonInfo", function()
@@ -434,3 +441,4 @@ s.Spread = 0.146
 
 print("RTX Graphics loaded \n created by Rawget#0001")
 end)
+
