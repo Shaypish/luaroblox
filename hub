@@ -66,6 +66,10 @@ OthersSection:NewButton("Ice hub", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
 end)
 
+OthersSection:NewButton("NNhub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/a8ef23a468af4ec5686fc6104066b501/raw/4dcc185733e69c358c32359fab1b4c27e578b4ee/ttt", true))()
+end)
+
 OthersSection:NewButton("BROOKHAVEN OP TROLL GUI", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Siw4mbQd",true))()
 end)
