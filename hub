@@ -252,9 +252,15 @@ end)
 
 local OthersTab = Window:NewTab("Mm2")
 local OthersSection = OthersTab:NewSection("Mm2")
+ OthersSection:NewButton("Ethanoj1 EclipseMM2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
 
 local OthersTab = Window:NewTab("Adopt Me")
 local OthersSection = OthersTab:NewSection("Adopt")
+ OthersSection:NewButton("ahmadsgamer2", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
 
   local OthersTab = Window:NewTab("Shaders")
 local OthersSection = OthersTab:NewSection("RTX")
