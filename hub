@@ -298,27 +298,6 @@ end)
 OthersSection:NewButton("BloxiYT/Diamond/main/AdoptMe", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 end)
-
-OthersSection:NewButton("Server Founder", "ButtonInfo", function()
-local Http = game:GetService("HttpService")
-local TPS = game:GetService("TeleportService")
-local Api = "https://games.roblox.com/v1/games/"
-
-local _place = game.PlaceId
-local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
-function ListServers(cursor)
-   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
-   return Http:JSONDecode(Raw)
-end
-
-local Server, Next; repeat
-   local Servers = ListServers(Next)
-   Server = Servers.data[1]
-   Next = Servers.nextPageCursor
-until Server
-
-TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
-end)
 OthersSection:NewButton("£thanoj1#3304 Adopt", "ButtonInfo", function()
 getgenv().mainKey = "nil";
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
