@@ -276,6 +276,39 @@ end)
 OthersSection:NewButton("VHUB", "ButtonInfo", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
 end)
+OthersSection:NewButton("ImperialExploits#9611 Loader", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+end)
+OthersSection:NewButton("SpeedHub X", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+OthersSection:NewButton("ReQiuYTPLツ#7030 Adopt", "ButtonInfo", function()
+loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
+end)
+OthersSection:NewButton("Adopt Pets Unlocker", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/unlock%20collections'))()
+end)
+OthersSection:NewButton("Smart Pets", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/smart%20pets'))()
+end)
+OthersSection:NewButton("Cospog-Script", "ButtonInfo", function()
+getgenv().Key = "mongerusthethird320"
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cospog-Scripts/shnigelutils/main/mainLoader.lua'),true))()
+end)
+OthersSection:NewButton("Neon Pets Adopt", "ButtonInfo", function()
+while true do
+   wait()
+local clientData = require(game.ReplicatedStorage.ClientModules.Core.ClientData)
+local playerData = clientData.get_data()[tostring(game.Players.LocalPlayer)]
+for i,v in pairs(playerData.inventory.pets) do
+v.properties.mega_neon = true
+end
+end
+end)
+OthersSection:NewButton("BloxiYT/Diamond/main/AdoptMe", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+end)
+
 OthersSection:NewButton("Server Founder", "ButtonInfo", function()
 local Http = game:GetService("HttpService")
 local TPS = game:GetService("TeleportService")
