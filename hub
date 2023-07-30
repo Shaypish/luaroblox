@@ -319,18 +319,12 @@ until Server
 
 TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
 end)
-
 OthersSection:NewButton("£thanoj1#3304 Adopt", "ButtonInfo", function()
 getgenv().mainKey = "nil";
-
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 OthersSection:NewButton("V.G Hub", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
-
-OthersSection:NewButton("VHUB", "ButtonInfo", function()
-
-OthersSection:NewButton("VHUB", "ButtonInfo", function()
 
   local OthersTab = Window:NewTab("Shaders")
 local OthersSection = OthersTab:NewSection("RTX")
