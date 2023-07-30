@@ -295,16 +295,6 @@ OthersSection:NewButton("Cospog-Script", "ButtonInfo", function()
 getgenv().Key = "mongerusthethird320"
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cospog-Scripts/shnigelutils/main/mainLoader.lua'),true))()
 end)
-OthersSection:NewButton("Neon Pets Adopt", "ButtonInfo", function()
-while true do
-   wait()
-local clientData = require(game.ReplicatedStorage.ClientModules.Core.ClientData)
-local playerData = clientData.get_data()[tostring(game.Players.LocalPlayer)]
-for i,v in pairs(playerData.inventory.pets) do
-v.properties.mega_neon = true
-end
-end
-end)
 OthersSection:NewButton("BloxiYT/Diamond/main/AdoptMe", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 end)
