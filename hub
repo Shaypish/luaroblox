@@ -239,6 +239,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/
    OthersSection:NewButton("RFruit", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaypish/script/main/shaypfruit"))()
   end)
+local OthersTab = Window:NewTab("Da Hood")
+local OthersSection = OthersTab:NewSection("Scripts Da Hood")
+
+ OthersSection:NewButton("Rippeed/DaHoodinary", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end)
+
+ OthersSection:NewButton("DreadzHub2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
 
   local OthersTab = Window:NewTab("TROLL SCRIPTS")
 local OthersSection = OthersTab:NewSection("Visual for Anticheat")
