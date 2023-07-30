@@ -50,3 +50,7 @@ local Button = Tab:CreateButton({
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
    end,
 })
+local Tab2 = Window:CreateTab("Credits", 4483362458)
+local Paragraph = Tab2:CreateParagraph({Title = "Youtube Channel", Content = "https://youtube.com/@robloxscriptparadise"})
+local Paragraph = Tab2:CreateParagraph({Title = "Website", Content = "https://rspofficial.pro/"})
+local Paragraph = Tab2:CreateParagraph({Title = "Discord Server", Content = "https://discord.gg/QKHCCUJNYj"})
